@@ -29,7 +29,7 @@ int main(){
   return 0;
 }
 
-//3. array - pass by value not work,default it takes pass by reference
+//3. array - pass by value not work, default it takes pass by reference
 int add(int arr[]){
   arr[0]+=90;
   return arr[0];
@@ -42,3 +42,5 @@ int main(){
   
   return 0;
 }
+
+// 4. string - pass by value, pass by reference both works
