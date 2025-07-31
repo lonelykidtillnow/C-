@@ -10,7 +10,7 @@ int main(){
   int n1;
   cin>>n1;
   int x=add(n1);
-  cout<<n1<<" "<<x;
+  cout<<n1<<" "<<x;     //5 15
   
   return 0;
 }
@@ -24,7 +24,21 @@ int main(){
   int n;
   cin>>n;
   int x=add(n);
-  cout<<n<<" "<<x;
+  cout<<n<<" "<<x;      //15 15
+  
+  return 0;
+}
+
+//3. array - pass by value not work,default it takes pass by reference
+int add(int arr[]){
+  arr[0]+=90;
+  return arr[0];
+}
+int main(){
+  
+  int arr[4]={10,20,30,40};
+  int x=add(arr);
+  cout<<arr[0]<<" "<<x;     //100 100
   
   return 0;
 }
