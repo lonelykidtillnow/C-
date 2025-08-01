@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//1.Factorial using Recursive with Parameters & Argument
+//1.Sum of first N using Recursive with Parameters & Argument
 void sum(int a,int b=1,int add=0){
   
   if(a==b){
@@ -21,7 +21,7 @@ int main(){
 }
 
 
-//2.Factorial using Pure Functional Recursion
+//2.Sum of first N using Pure Functional Recursion
 int sum(int a){
   
   if(a==1){
