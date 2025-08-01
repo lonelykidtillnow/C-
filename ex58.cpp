@@ -16,6 +16,10 @@ int main(){
       if(hash[i]>0) cout<<char(i)<<"->"<<hash[i]<<endl;
     }
     
+    
+    char b='r';
+    cout<<hash[b];
+    
     return 0;
 }
 
@@ -31,3 +35,4 @@ int main(){
 // m->1
 // r->2
 // s->1
+//2
