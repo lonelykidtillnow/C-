@@ -43,3 +43,21 @@ int main(){
   
   return 0;
 }
+
+// 3.print n to 1 using recursion
+void f(int a){
+  if(a==1){
+    cout<<a;
+    return ;
+  }
+  cout<<a<<endl;
+  f(a-1);
+}
+int main(){
+  
+  int n;
+  cin>>n;
+  f(n);
+  
+  return 0;
+}
