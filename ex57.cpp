@@ -17,6 +17,9 @@ int main(){
       if(hash[i]>0) cout<<i<<"->"<<hash[i]<<endl;
     }
     
+    int x=20;
+    cout<<hash[x];
+    
     return 0;
 }
 
@@ -30,3 +33,4 @@ int main(){
 // 20->1
 // 30->2
 // 40->1
+//1
