@@ -47,9 +47,9 @@ int main(){
 //Comparison Table:
 
 // Feature	                        Code 1	                                            Code 2
-// Style	                        Parameter-based recursion (Accumulator)	            Pure functional recursion
-// Output type	                    void (prints result)	                            int (returns result)
-// Variables used	                a, b, fact	                                        a only
+// Style	                          Parameter-based recursion (Accumulator)	            Pure functional recursion
+// Output type	                    void (prints result)	                              int (returns result)
+// Variables used	                  a, b, fact	                                        a only
 // Code length	                    Longer	                                            Shorter
-// Clean & Mathematical	            ❌ Less	                                           ✅ More
-// Good for step-by-step logic	    ✅ Yes	                                           ❌ No (just final result)
+// Clean & Mathematical	            ❌ Less	                                          ✅ More
+// Good for step-by-step logic	    ✅ Yes	                                            ❌ No (just final result)
