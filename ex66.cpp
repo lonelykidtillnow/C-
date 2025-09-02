@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 
-    for(int i=0;i<20;i++){
+    for(int i=0;i<=20;i++){
       switch(i){
         case 0: i+=5;
         case 1: i+=2;
