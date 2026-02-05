@@ -39,3 +39,31 @@ int main(){
     }
     return 0;
 }
+
+// Age Condition Using Switch
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     //write your code here
+//     int age;
+//     cin>>age;
+//     switch(age/10){
+//         case 1:
+//             if(age<13)  cout<<"child";
+//             else        cout<<"teenager";
+//             break;
+//         case 2:
+//         case 3:
+//         case 4:
+//         case 5:
+//             cout<<"adult";
+//             break;
+//         default:
+//             cout<<"senior citizen";
+//             break;
+//     }
+    
+//     return 0;
+// }
