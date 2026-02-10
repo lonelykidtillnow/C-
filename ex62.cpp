@@ -1,3 +1,5 @@
+//Bubble Sort - (Compare Adjacent & Swap)
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -103,3 +105,33 @@ int main(){
 
 // Iteration 6 (i = 5):
 // All elements are now sorted. No swaps occur.
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    
+    int n,count=0;
+    cin>>n;
+    
+    int arr[n];
+    for(int i=0;i<=n-1;i++)     cin>>arr[i];
+    
+    
+    for(int i=0;i<=n-1;i++){
+        for(int j=0;j<=n-2;j++){
+            if(arr[j]>arr[j+1]){
+                count++;
+                swap(arr[j],arr[j+1]);
+            }
+        }
+    }
+    
+    if(count==0)    cout<<"Already Sorted Array";
+    else{
+        for(int i=0;i<=n-1;i++)    cout<<arr[i]<<" ";
+    }
+    
+    return 0;
+}
