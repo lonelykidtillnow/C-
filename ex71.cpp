@@ -49,7 +49,6 @@ int main(){
 // pivot(arr, 0, 7)
 
 // 🔵 STEP 1 — Partition (0 to 7)
-
 // i = 0
 // j = 7
 // Pivot = first element = 4
@@ -71,7 +70,6 @@ int main(){
 // [4, 3, 2, 5, 7, 9, 1, 6]
 
 // 🔁 Next Iteration
-
 // i=1
 // j=7
 // Pivot = first element = 4
@@ -94,7 +92,6 @@ int main(){
 // Array:[4, 3, 2, 1, 7, 9, 5, 6]
 
 // 🔁 Next Iteration
-
 // i=3
 // j=6
 // Pivot = first element = 4
@@ -122,7 +119,6 @@ int main(){
 // Right side: (4 to 7)
 
 // 🔵 STEP 2 — Partition Left Side (0 to 2)
-
 // Subarray:
 // [1, 3, 2]
 // Pivot = 1
@@ -150,7 +146,6 @@ int main(){
 // (1,2)
 
 // 🔵 STEP 3 — Partition(1 to 2)
-
 // Subarray:
 // [3,2]
 // Pivot = 3
@@ -171,14 +166,12 @@ int main(){
 
 // Array:[1, 2, 3, 4, 7, 9, 5, 6]
 
-
 // Pivot index = 2
 // (1,1) stop
 // (3,2) stop
 // Left side fully sorted ✔
 
 // 🔵 STEP 4 — Right Side Partition (4 to 7)
-
 // Subarray:
 // [7, 9, 5, 6]
 // Pivot = 7
@@ -217,7 +210,6 @@ int main(){
 // 7 ↔ 5
 
 // Array:[1,2,3,4,5,6,7,9]
-
 
 // Pivot index = 6
 // Recursive:
