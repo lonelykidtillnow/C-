@@ -36,7 +36,7 @@ int main(){
 }
 
 
-//              Using Recursion
+// Using Recursion
 // void binary(int arr[],int start,int end,int target){
 //     if(start>end){
 //         cout<<"Not found";
