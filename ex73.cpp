@@ -38,7 +38,8 @@ int main(){
 
 // Using Recursion
 // void binary(int arr[],int start,int end,int target){
-//     if(start>end){
+//
+//     if(start>end){       But start == end means still 1 element left to check.
 //         cout<<"Not found";
 //         return;
 //     }
