@@ -29,6 +29,18 @@ void pivot(int arr[],int start,int end){
         pivot(arr,p+1,end);
     }
 }
+
+// void pivot(int arr[],int start,int end){
+//     if(start>=end){
+//         return;
+//     }
+//     else{
+//         int p=quicksort(arr,start,end);
+//         pivot(arr,start,p-1);
+//         pivot(arr,p+1,end);
+//     }
+// }
+
 int main(){
     
     int n;
