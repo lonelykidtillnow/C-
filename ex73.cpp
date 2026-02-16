@@ -34,3 +34,39 @@ int main(){
     
     return 0;
 }
+
+
+//              Using Recursion
+// void binary(int arr[],int start,int end,int target){
+//     if(start>end){
+//         cout<<"Not found";
+//         return;
+//     }
+//     else{
+//         int mid=(start+end)/2;
+//         if(target==arr[mid]){
+//             cout<<arr[mid]<<" found index at "<<mid;
+//             return;
+//         }
+//         else if(target>arr[mid]){
+//             binary(arr,mid+1,end,target);
+//         }
+//         else{
+//             binary(arr,start,mid-1,target);
+//         }
+//     }
+// }
+// int main(){
+    
+//     int n,count=0;
+//     cin>>n;
+    
+//     int arr[n];
+//     for(int i=0;i<=n-1;i++) cin>>arr[i]; //2,5,8,12,16,23,38
+    
+//     int target=38;
+    
+//     binary(arr,0,n-1,target);
+    
+//     return 0;
+// }
