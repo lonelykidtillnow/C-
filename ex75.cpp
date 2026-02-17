@@ -28,15 +28,9 @@ int main(){
 
 // largest=10 second=-∞
 
-// i=1 → 10<50
-// → second=10 largest=50
-
-// i=2 → 50<100
-// → second=50 largest=100
-
-// i=3 → 
-// if (100<80) no
-// else if (50<80 && 80!=100)
-// -> second=80
+// i=1 → 10<50  → second=10 largest=50
+// i=2 → 50<100 → second=50 largest=100
+// i=3 → 100<80 → no change
+// else if (50<80 && 80!=100) → second=80
 
 // OUTPUT → 100 80
