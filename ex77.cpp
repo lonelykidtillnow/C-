@@ -35,5 +35,6 @@ int main(){
 // i=2 → 30<=30 -> true
 // i=3 → 30<=40 -> true
 // i=4 → 40<=50 -> true
+// Loop ends
 
-// Loop ends → Sorted
+// OUTPUT → Soted Array
