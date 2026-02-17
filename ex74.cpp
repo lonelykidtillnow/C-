@@ -10,7 +10,7 @@ int main(){
     int largest=arr[0];
     
     for(int i=1;i<=n-1;i++){
-        if(largest<=arr[i]){
+        if(largest<arr[i]){
             largest=arr[i];
         }
     }
